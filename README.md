@@ -11,7 +11,7 @@ Driver for QMP6988 digital temperature and pressure sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/qmp6988^0.0.1
+idf.py add-dependency esp-idf-lib/qmp6988^0.0.1
 ```
 
 ## Support
