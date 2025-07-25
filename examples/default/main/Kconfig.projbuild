@@ -25,5 +25,5 @@ menu "Example configuration"
         help
             I2C address of QMP6988, default 0x70.
 
-    rsource "../../../../devtools/Kconfig.i2c"
+    rsource "../../../Kconfig.i2c"
 endmenu
