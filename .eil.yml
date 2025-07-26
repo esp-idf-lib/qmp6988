@@ -1,7 +1,7 @@
 ---
 name: qmp6988
 description: Driver for QMP6988 digital temperature and pressure sensor
-version: 0.0.1
+version: 0.0.2
 groups:
   - temperature
   - pressure
