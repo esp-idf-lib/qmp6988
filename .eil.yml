@@ -5,7 +5,8 @@ version: 0.0.4
 groups:
   - temperature
   - pressure
-code_owners: vonguced
+code_owners:
+  - vonguced
 depends:
   - i2cdev
   - log
