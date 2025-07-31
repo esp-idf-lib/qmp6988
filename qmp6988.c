@@ -2,10 +2,10 @@
  * Copyright (c) 2019 Ruslan V. Uss (https://github.com/UncleRus)
  * Copyright (c) 2022 m5stack (https://github.com/m5stack)
  * Copyright (c) 2024 vonguced (https://github.com/vonguced)
- * 
+ *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
- * 
+ *
  * 1. Redistributions of source code must retain the above copyright notice,
  *    this list of conditions and the following disclaimer.
  * 2. Redistributions in binary form must reproduce the above copyright notice,
@@ -187,7 +187,7 @@ esp_err_t qmp6988_get_calibration_data(qmp6988_t *dev)
 
     qmp6988_cali.COE_b00
         = (int32_t)((((int32_t)a_data_uint8_tr[0] << SHIFT_LEFT_12_POSITION) | (a_data_uint8_tr[1] << SHIFT_LEFT_4_POSITION) | ((a_data_uint8_tr[24] & 0xf0) >> SHIFT_RIGHT_4_POSITION))
-                          << 12);
+                    << 12);
     qmp6988_cali.COE_b00 = qmp6988_cali.COE_b00 >> 12;
 
     qmp6988_cali.COE_bt1 = (int16_t)((a_data_uint8_tr[2] << SHIFT_LEFT_8_POSITION) | a_data_uint8_tr[3]);

@@ -2,10 +2,10 @@
  * Copyright (c) 2019 Ruslan V. Uss (https://github.com/UncleRus)
  * Copyright (c) 2022 m5stack (https://github.com/m5stack)
  * Copyright (c) 2024 vonguced (https://github.com/vonguced)
- * 
+ *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
- * 
+ *
  * 1. Redistributions of source code must retain the above copyright notice,
  *    this list of conditions and the following disclaimer.
  * 2. Redistributions in binary form must reproduce the above copyright notice,
@@ -62,7 +62,8 @@ extern "C" {
 /**
  * Possible measurement modes
  */
-typedef enum {
+typedef enum
+{
     QMP6988_SLEEP_MODE = 0x00,  //!< sleep mode
     QMP6988_FORCED_MODE = 0x01, //!< one measurement then sleep again
     QMP6988_NORMAL_MODE = 0x03  //!< power mode
@@ -71,7 +72,8 @@ typedef enum {
 /**
  * Possible filter modes
  */
-typedef enum {
+typedef enum
+{
     QMP6988_FILTERCOEFF_OFF = 0x00,
     QMP6988_FILTERCOEFF_2 = 0x01,
     QMP6988_FILTERCOEFF_4 = 0x02,
@@ -83,7 +85,8 @@ typedef enum {
 /**
  * Possible oversampling modes
  */
-typedef enum {
+typedef enum
+{
     QMP6988_OVERSAMPLING_SKIPPED = 0x00,
     QMP6988_OVERSAMPLING_1X = 0x01,
     QMP6988_OVERSAMPLING_2X = 0x02,
