@@ -1,5 +1,5 @@
 ---
-version: 0.0.6
+version: 0.0.7
 description: Driver for QMP6988 digital temperature and pressure sensor
 license: BSD-3
 targets:
