@@ -1,7 +1,7 @@
 ---
 version: 0.0.9
 description: Driver for QMP6988 digital temperature and pressure sensor
-license: BSD-3
+license: BSD-3-Clause
 dependencies:
   esp-idf-lib/i2cdev:
     version: "*"
